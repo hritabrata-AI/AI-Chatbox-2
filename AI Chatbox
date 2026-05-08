@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerPeace AI | Your Emotional Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">InnerPeace AI</div>
+            <button class="new-chat-btn">+ New Reflection</button>
+            <div class="history-list">
+                <div class="history-item">Finding Calm</div>
+                <div class="history-item">Overcoming Stress</div>
+                <div class="history-item">Motivation Boost</div>
+            </div>
+        </aside>
+
+        <main class="chat-space">
+            <header class="chat-header">
+                <h1>Hello. How are you truly feeling?</h1>
+                <p>This is a safe space for your thoughts.</p>
+            </header>
+
+            <div class="messages-container">
+                <div class="message ai-message">
+                    Welcome. I'm here to listen. Whether you're feeling overwhelmed, sad, or just need a bit of motivation, you can share anything with me.
+                </div>
+                </div>
+
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea placeholder="Share your thoughts..." rows="1"></textarea>
+                    <button class="send-btn">➔</button>
+                </div>
+                <p class="disclaimer">I am here to support you, but I am an AI. If you are in crisis, please seek professional help.</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
